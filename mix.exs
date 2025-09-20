@@ -1,8 +1,8 @@
-defmodule NervesSystemQemuAarch64.MixProject do
+defmodule NervesContainersQemuAarch64.MixProject do
   use Mix.Project
 
-  @github_organization "nerves-project"
-  @app :nerves_system_qemu_aarch64
+  @github_organization "nerves-containers"
+  @app :nerves_containers_qemu_aarch64
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
