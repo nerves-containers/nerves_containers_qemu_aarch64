@@ -112,7 +112,8 @@ defmodule NervesContainersQemuAarch64.MixProject do
       "nerves_defconfig",
       "post-build.sh",
       "post-createfs.sh",
-      "rootfs_overlay"
+      "rootfs_overlay",
+      "busybox.fragment"
     ]
   end
 
