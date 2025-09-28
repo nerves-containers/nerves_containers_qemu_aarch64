@@ -33,7 +33,8 @@ path = [
  "nerves_defconfig",
  "post-build.sh",
  "post-createfs.sh",
- "package/**/*"
+ "package/**/*",
+ "busybox.fragment"
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "The Buildroot developers <buildroot@buildroot.org>"
