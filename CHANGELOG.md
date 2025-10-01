@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.0
+
+This release increases the default partition sizes from 50MB for the rootfs to 256MB
+and 512MB for the default app partition.
+
 ## v0.1.1
 
 This is an important security/bug fix that addresses Erlang CVEs for the ssh
